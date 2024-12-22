@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Cool Website</title>
+        <title>My Portfolio</title>
 
         <style>
             img {
@@ -16,10 +16,10 @@
     </head>
     <body>
         <h1>My Portfolio</h1>
-        <p>I think HTML is cool!!!!!!</p>
+        <p>I am cool fr</p>
 
         <img src="https://www.caa.com/caaspeakers/partyHeadshot/jimmy-o-yang.png">
-        <blockquote>"Literally me - someone</blockquote>
+        <blockquote>Cool Dude</blockquote>
         <button onclick="changeQuote()">My Roles:</button>
         <script>
             var index = 0;
