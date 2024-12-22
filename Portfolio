@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Cool Website</title>
+
+        <style>
+            img {
+                width: 600px;
+                height: auto;
+            }
+            h1 {
+                color: red;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>My Portfolio</h1>
+        <p>I think HTML is cool!!!!!!</p>
+
+        <img src="https://www.caa.com/caaspeakers/partyHeadshot/jimmy-o-yang.png">
+        <blockquote>"Literally me - someone</blockquote>
+        <button onclick="changeQuote()">My Roles:</button>
+        <script>
+            var index = 0;
+            function changeQuote() {
+                var quotes = [
+                    `Vice-President (2024-2025)`,
+                    `Grade 9 Representative (2023-2024)`,
+                    `Chill Guy`,
+                    `Pro roblox player`                
+                    
+                ];
+                var blockquote = document.querySelector("blockquote");
+                blockquote.innerHTML = quotes[index];
+                index++;
+                if (index >= 4) {
+                    index = 0;
+                }
+            }
+        </script>
+    </body>
+</html>
